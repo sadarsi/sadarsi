@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: var(--button-icon-gap);
+  width: 100%;
+  height: var(--button-height);
+  padding: 0 var(--button-padding-x);
+  border: var(--button-border-width) solid var(--color-white);
+  border-radius: var(--button-radius);
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--color-button-hover);
+}
+
+.button__icon {
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.button__icon--telegram {
+  width: var(--button-icon-telegram-width);
+  height: var(--button-icon-telegram-height);
+}
+
+.button__icon--twitch {
+  width: var(--button-icon-twitch-width);
+  height: var(--button-icon-twitch-height);
+}
+
+.button__text {
+  flex: 1;
+  font-size: var(--font-size-button);
+  font-weight: 400;
+  line-height: var(--line-height-text);
+  text-align: center;
+  text-transform: uppercase;
+}

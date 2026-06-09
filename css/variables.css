@@ -1,0 +1,49 @@
+:root {
+  /* Layout */
+  --page-width: 1440px;
+  --page-padding-y: 125px;
+  --page-padding-x: 20px;
+  --cards-gap: 150px;
+
+  /* Card */
+  --card-width: 400px;
+  --card-min-height: 650px;
+  --card-radius: 25px;
+  --card-border-width: 1px;
+  --card-blur: 50px;
+  --card-actions-width: 300px;
+  --card-actions-padding-inline: 0;
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-card-bg: rgba(255, 255, 255, 0.01);
+  --color-button-hover: rgba(255, 255, 255, 0.08);
+
+  /* Typography */
+  --font-family: "Vela Sans", sans-serif;
+  --font-size-title: 35px;
+  --font-size-button: 30px;
+  --line-height-text: 1.13;
+
+  /* Avatar */
+  --avatar-size: 140px;
+  --avatar-radius: 100px;
+
+  /* Button */
+  --button-height: 75px;
+  --button-radius: 20px;
+  --button-border-width: 1px;
+  --button-gap: 20px;
+  --button-icon-gap: 12px;
+  --button-icon-telegram-width: 56px;
+  --button-icon-telegram-height: 57px;
+  --button-icon-twitch-width: 45px;
+  --button-icon-twitch-height: 47px;
+  --button-padding-x: 15px;
+
+  /* Spacing inside card */
+  --card-avatar-top: 127px;
+  --card-title-offset: 20px;
+  --card-actions-offset: 40px;
+  --card-actions-offset-single: 87px;
+}

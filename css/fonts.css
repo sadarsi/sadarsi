@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Vela Sans";
+  src: url("https://db.onlinewebfonts.com/t/1d81cdaee5e55acbcf50ccbfc8b94122.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vela Sans";
+  src: url("https://db.onlinewebfonts.com/t/947d985ffa29dfc0b6c56448ef028f5e.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
